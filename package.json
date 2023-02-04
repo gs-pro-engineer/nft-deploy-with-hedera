@@ -1,0 +1,23 @@
+{
+  "name": "hedera-strato-demo",
+  "version": "1.0.0",
+  "description": "Support material for the Hedera Strato JS showcase article",
+  "author": "BuiDLer Labs Developers <devs@buidlerlabs.com>",
+  "homepage": "https://buidlerlabs.com",
+  "license": "MIT",
+  "main": "demo.mjs",
+  "engines": {
+    "node": ">=16"
+  },
+  "scripts": {
+    "start": "node demo.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buidler-labs/hedera-strato-demo.git"
+  },
+  "dependencies": {
+    "@buidlerlabs/hedera-strato-js": "0.7.3",
+    "@hashgraph/sdk": "^2.11.0"
+  }
+}
